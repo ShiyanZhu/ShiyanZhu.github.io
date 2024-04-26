@@ -1,0 +1,85 @@
+/* 
+-------------------
+basic styles
+-------------------
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(261, 89%, 93%);
+
+}
+
+main {
+    background-color: rgb(138, 255, 235);
+    margin-left: 350px;
+    max-width: 1000px;
+}
+
+p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(42, 40, 45);
+}
+
+.intro {
+    color: rgb(255, 255, 80);
+    width: 100%;
+    font-style: italic;
+    font-family: serif;
+    font-size: larger;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    border: 1.5px solid black;
+
+
+    box-sizing: border-box;
+
+
+}
+
+
+/* 
+-------------------
+basic styles
+-------------------
+*/
+
+nav {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration: dotted;
+    background-color: rgb(251, 255, 222);
+    border-bottom: 1px solid gray;
+    padding: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    display: block;
+    max-width: 100%;
+    padding: 40px;
+    margin: 20px;
+    border: 1.5px solid gray;
+
+
+    box-sizing: border-box;
+
+    
+
+
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
