@@ -1,0 +1,633 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* 
+----------------------------
+Animation styles
+----------------------------
+*/
+
+
+@keyframes A {
+    0% {
+        top: 0%;
+        left: 25%;
+    }
+
+    50% {
+        top: 50%;
+        left: 50%;
+    }
+    
+    100% {
+        top: 100%;
+        left: 100%;
+    }
+}
+
+#A {
+    animation: A 20s linear infinite;
+}
+
+
+@keyframes B {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    50% {
+        top: 25%;
+        left: 25%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 100%;
+    }
+}
+
+#B {
+    animation: B 20s linear infinite;
+}
+
+
+@keyframes C {
+    0% {
+        top: 10%;
+        left: 50%;
+    }
+
+    50% {
+        top: 25%;
+        left: 50%;
+    }
+    
+    100% {
+        top: 50%;
+        left: 100%;
+    }
+}
+
+#C {
+    animation: C 20s linear infinite;
+}
+
+
+@keyframes D {
+    0% {
+        top: 100%;
+        left: 0%;
+    }
+
+    50% {
+        top: 75%;
+        left: 25%;
+    }
+    
+    100% {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+#D {
+    animation: D 20s linear infinite;
+}
+
+
+@keyframes E {
+    0% {
+        top: 50%;
+        left: 0%;
+    }
+
+    50% {
+        top: 25%;
+        left: 25%;
+    }
+    
+    100% {
+        top: 100%;
+        left: 50%;
+    }
+}
+
+#E {
+    animation: E 20s linear infinite;
+}
+
+@keyframes F {
+    0% {
+        top: 100%;
+        left: 75%;
+    }
+
+    50% {
+        top: 65%;
+        left: 65%;
+    }
+    
+    100% {
+        top: 25%;
+        left: 0%;
+    }
+}
+
+#F {
+    animation: F 20s linear infinite;
+}
+
+@keyframes G {
+    0% {
+        top: 0%;
+        left: 75%;
+    }
+
+    50% {
+        top: 25%;
+        left: 30%;
+    }
+    
+    100% {
+        top: 75%;
+        left: 45%;
+    }
+}
+
+#G {
+    animation: G 20s linear infinite;
+}
+
+
+@keyframes H {
+    0% {
+        top: 0%;
+        left:25%;
+    }
+
+    50% {
+        top: 45%;
+        left: 5%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 0%;
+    }
+}
+
+#H {
+    animation: H 20s linear infinite;
+}
+
+
+@keyframes I {
+    0% {
+        top: 0%;
+        left: 0%;
+    }
+
+    50% {
+        top: 0%;
+        left: 75%;
+    }
+    
+    100% {
+        top: 30%;
+        left: 85%;
+    }
+}
+
+#I {
+    animation: I 20s linear infinite;
+}
+
+
+@keyframes J {
+    0% {
+        top: 0%;
+        left: 75%;
+    }
+
+    50% {
+        top: 25%;
+        left: 85%;
+    }
+    
+    100% {
+        top: 100%;
+        left: 15%;
+    }
+}
+
+#J {
+    animation: J 20s linear infinite;
+}
+
+
+@keyframes K {
+    0% {
+        top:75%;
+        left: 15%;
+    }
+
+    50% {
+        top: 45%;
+        left: 85%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 35%;
+    }
+}
+
+#K {
+    animation: K 20s linear infinite;
+}
+
+
+@keyframes L {
+    0% {
+        top: 55%;
+        left: 90%;
+    }
+
+    50% {
+        top: 45%;
+        left: 65%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 85%;
+    }
+}
+
+#L {
+    animation: L 20s linear infinite;
+}
+
+
+@keyframes M {
+    0% {
+        top: 15%;
+        left: 50%;
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+    
+    100% {
+        top: 90%;
+        left: 0%;
+    }
+}
+
+#M {
+    animation: M 20s linear infinite;
+}
+
+
+@keyframes N {
+    0% {
+        top: 75%;
+        left: 65%;
+    }
+
+    50% {
+        top: 100%;
+        left: 50%;
+    }
+    
+    100% {
+        top: 65%;
+        left: 25%;
+    }
+}
+
+#N {
+    animation: N 20s linear infinite;
+}
+
+
+@keyframes O {
+    0% {
+        top: 95%;
+        left: 15%;
+    }
+
+    50% {
+        top: 80%;
+        left: 30%;
+    }
+    
+    100% {
+        top: 15%;
+        left: 15%;
+    }
+}
+
+#O {
+    animation: O 20s linear infinite;
+}
+
+@keyframes P {
+    0% {
+        top: 95%;
+        left: 50%;
+    }
+
+    50% {
+        top: 75%;
+        left: 65%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 65%;
+    }
+}
+
+#P {
+    animation: P 20s linear infinite;
+}
+
+
+@keyframes Q {
+    0% {
+        top: 65%;
+        left: 35%;
+    }
+
+    50% {
+        top: 15%;
+        left: 65%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 55%;
+    }
+}
+
+#Q {
+    animation: Q 20s linear infinite;
+}
+
+@keyframes R {
+    0% {
+        top: 85%;
+        left: 5%;
+    }
+
+    50% {
+        top: 5%;
+        left: 25%;
+    }
+    
+    100% {
+        top: 45%;
+        left: 35%;
+    }
+}
+
+#R {
+    animation: R 20s linear infinite;
+}
+
+@keyframes S {
+    0% {
+        top: 35%;
+        left: 15%;
+    }
+
+    50% {
+        top: 5%;
+        left: 15%;
+    }
+    
+    100% {
+        top: 5%;
+        left: 5%;
+    }
+}
+
+#S {
+    animation: S 20s linear infinite;
+}
+
+@keyframes T {
+    0% {
+        top: 75%;
+        left: 75%;
+    }
+
+    50% {
+        top: 100%;
+        left: 100%;
+    }
+    
+    100% {
+        top: 80%;
+        left: 35%;
+    }
+}
+
+#T {
+    animation: T 20s linear infinite;
+}
+
+
+@keyframes U {
+    0% {
+        top: 15%;
+        left: 20%;
+    }
+
+    50% {
+        top: 100%;
+        left: 0%;
+    }
+    
+    100% {
+        top: 85%;
+        left: 15%;
+    }
+}
+
+#U {
+    animation: U 20s linear infinite;
+}
+
+
+@keyframes V {
+    0% {
+        top: 5%;
+        left: 55%;
+    }
+
+    50% {
+        top: 70%;
+        left: 70%;
+    }
+    
+    100% {
+        top: 85%;
+        left: 75%;
+    }
+}
+
+#V {
+    animation: V 20s linear infinite;
+}
+
+
+@keyframes W {
+    0% {
+        top: 0%;
+        left: 50%;
+    }
+
+    50% {
+        top: 35%;
+        left: 90%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 50%;
+    }
+}
+
+#W {
+    animation: W 20s linear infinite;
+}
+
+
+@keyframes X {
+    0% {
+        top: 100%;
+        left: 80%;
+    }
+
+    50% {
+        top: 45%;
+        left: 60%;
+    }
+    
+    100% {
+        top: 60%;
+        left: 20%;
+    }
+}
+
+#X {
+    animation: X 20s linear infinite;
+}
+
+
+@keyframes Y {
+    0% {
+        top: 65%;
+        left: 80%;
+    }
+
+    50% {
+        top: 0%;
+        left: 45%;
+    }
+    
+    100% {
+        top: 20%;
+        left: 20%;
+    }
+}
+
+#Y {
+    animation: Y 20s linear infinite;
+}
+
+@keyframes Z {
+    0% {
+        top: 95%;
+        left: 15%;
+    }
+
+    50% {
+        top: 100%;
+        left: 15%;
+    }
+    
+    100% {
+        top: 0%;
+        left: 60%;
+    }
+}
+
+#Z {
+    animation: Z 20s linear infinite;
+}
+
+/* 
+----------------------------
+Transition styles
+----------------------------
+*/
+
+a {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+
+/* 
+----------------------------
+Transition styles
+----------------------------
+*/
+
+body {
+    background-color: black;
+
+}
+ 
+h1 {
+    color: aqua;
+    margin-left: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+   
+    box-sizing: border-box;
+
+
+}
+
