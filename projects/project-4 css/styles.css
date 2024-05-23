@@ -581,7 +581,7 @@ Transition styles
 ----------------------------
 */
 
-.circles a {
+a {
     position: absolute;
     overflow: hidden;
     border-radius: 100%;
@@ -592,10 +592,30 @@ Transition styles
     transition: opacity 0.5s ease;
 }
 
-.circles a:hover {
+a:hover {
     opacity: 1;
 }
 
+a.front {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+a.back {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    color: white;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
 
 /* 
 ----------------------------
@@ -625,7 +645,6 @@ img {
     width: 100%;
     height: 100%;
     padding: 20px;
-    object-fit: contain;
    
     box-sizing: border-box;
 

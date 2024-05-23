@@ -1,0 +1,265 @@
+/* 
+-------------------
+Varuavkes
+-------------------
+*/
+
+:root {
+    --bg-color: rgb(239, 255, 170);
+    --text-color: rgb(0, 0, 0);
+    --primary-color: rgb(30, 0, 255);
+    --secondaty-color: :rgb(119, 255, 50);
+
+}
+
+
+
+/* 
+-------------------
+Fonts
+-------------------
+*/
+
+@font-face {
+    font-family: 'Absans';
+    src: url('../fonts/Absans-Regular.woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SpratVF';
+    src: url('../fonts/SpratVF.woff2') format('woff2-variations');
+}
+
+/* 
+-------------------
+Animation styles
+-------------------
+*/
+
+@keyframes  heading-color {
+    0% {
+        color: bisque;
+    }
+
+    25% {
+        color: blueviolet;
+    }
+    
+    50% {
+        color: rgb(0, 0, 0);
+    }
+
+    75% {
+        color: aqua;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+
+
+
+/* 
+-------------------
+basic styles
+-------------------
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+body.light {
+    background-color: white;
+    color: black;
+
+}
+
+body.dark{
+    background-color: black;
+    color: white;
+
+}
+
+main {
+
+    max-width: 1000px;
+    padding: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(42, 40, 45);
+    padding: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    border: 1.5px solid black;
+
+
+    box-sizing: border-box;
+
+
+}
+
+h1 {
+    font-family: 'SpratVF';
+    font-stretch: 100%;
+    font-weight: 400;
+    transition: all 2s ease;
+
+}
+
+h1:hover {
+    font-family: "SpratVF";
+    font-stretch: 150%;
+    font-weight: 100;
+    
+}
+
+
+h2, h3, h4 {
+    font-family: "Jacquarda Bastarda 9 Charted", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1 {
+    animation: heading-color 5s ease infinite ;
+}
+
+
+h3 {
+    margin-top: 50px;
+}
+
+h4 {
+    margin-top: 50px;
+}
+
+h3 + p {
+    text-indent: 20px;
+}
+
+
+/* 
+-------------------
+navigation styles
+-------------------
+*/
+
+
+nav a {
+    font-size: 18px;
+    color: var(--secondaty-color);
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    color: blue;
+    background-color: blueviolet;
+}
+
+nav {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    text-decoration: dotted;
+    border-bottom: 1px solid gray;
+    padding: 20;
+    display: block;
+    padding: 40px;
+    border: 1.5px solid gray;
+
+
+    box-sizing: border-box;
+
+
+}
+
+.primary-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.secondary-nav {
+    padding-left: 20px;
+}
+
+
+/* 
+-------------------
+article styles
+-------------------
+*/
+
+.intro {
+    color: rgb(98, 0, 255);
+    width: 100%;
+    font-style: italic;
+    font-family: serif;
+    font-size: larger;
+}
+
+/* 
+-------------------
+Media Queries styles
+-------------------
+*/
+
+/* small screens */
+.navigation {
+    display: none;
+    
+}
+
+main {
+
+}
+
+/* medium screens */
+@media screen and (min-width: 600px) {
+    .navigation {
+        display: block;
+        order: 2;
+    }
+
+    main {
+        order: 1;
+    }
+    
+}
+
+/* large screens */
+@media screen and (min-width: 1200px) {
+    .navigation {
+        flex-basis: 300px;
+        order: 1;
+        position: sticky;
+        top: 0;
+        align-self: flex-start;
+
+    }
+
+    main {
+        flex-basis: calc(100% - 300px);
+        order: 2;
+   
+    }
+    
+}
